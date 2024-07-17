@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first_web_page</title>
+</head>
+<body>
+    <h1> 
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <ins>Fugit reprehenderit </ins>blanditiis consequatur <del>pariatur rerum </del>reiciendis <small>facere hic velit, dolorum, repellat magni. Sunt illum vitae voluptatum ab </small>similique voluptates nulla distinctio.</p>
+    </h1>
+    <h2> <i> hey there its content of lorem</i>
+    </h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, hic! Ducimus at veritatis, nisi aut deleniti illum iure esse praesentium. Suscipit, laudantium. Itaque eos facere, ea consequuntur necessitatibus aliquid sit.</p>
+    x <sup>2</sup>this will put the text up <br>
+    h <sub>2</sub> this will put text down
+    <center>hey</center> <br>
+    <marquee behavior="alternate" direction="right"><abbr title="hypertext markup langruage">html</abbr> this will make the text move right left alternate</marquee>
+    
+    <center><img src="https://images.unsplash.com/photo-1720463813678-14114ffff9fd?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=" img not found to show the msg about any error will occur" width="200"></center>
+    src will contain the address from where you want to get the img <br>
+    <video src="sample.mp4" controls width="500" style="border-radius: 20px;"> </video> <br>
+    <audio src="">here paste the link of the audio file</audio>
+
+    <!-- there are three type of lists:-
+    ordered lists
+    unordered lists
+    data discription list -->
+    <ul type="square" >
+        <li>hello</li>
+        <li>hi</li>
+        <li>bye</li>
+    </ul>
+    <ol type="i" >
+        <li>yo</li>
+        <li>yoo</li>
+        <li>yooyoy</li>
+    </ol>
+    <dl>
+        <dt>coffee this will add the data term </dt>
+        <dd>mrp Rs.40 , this will add the data discripyion</dd>
+    </dl>
+    <dl>
+        <dt>books</dt>
+        <dd>english</dd>
+        <dd>hindi</dd>
+        <dd>maths</dd>
+    </dl>
+    <center>
+    <form action="" method=""> here action will conect this form to the content mention over here <br>
+        get -- will used for short data without security <br>
+        post -- will transfer the data with security <br>
+       Name <input type="text" name="myname" id="" value="kcsjdc" disabled /> <br> 
+       here name will be used to fetch the data in backend when we use name = get.post.('myname') so this will take the data from myname from frontend and then put it in the name var in backend <br>
+    <label for="email" style="color: red;">email</label> <input type="email" name="" id="email" value="ru@12" readonly> <br>
+       password <input type="password" name="" id="" value="123" disabled> <br>
+       <label for="">gender</label> 
+       <input type="radio" name="gender" id="">male
+       <input type="radio" name="gender" id="">female <br>
+       <label for="">language</label>
+       <input type="checkbox">hindi
+       <input type="checkbox" name="" id="">english <br>
+       <label for="">date</label>
+       <input type="date" name="" id=""> <br>
+       <label for="">file</label>
+       <input type="file" name="" id=""> <br>
+       <label for="">color</label>
+       <input type="color" name="" id=""> <br>
+       <label for="">city</label>
+       <select name="" id="">
+        <option value="">none</option>
+        <option value="">jaipur</option>
+        <option value="">kota</option>
+       </select> <br>
+       <label for="">range</label>
+       <input type="range" name="" id=""> <br>
+       <textarea name="" id="" rows="10" cols="20" placeholder="enter your text here"></textarea> <br>
+       <label for="">hidden</label>
+       <input type="hidden" name="" id=""> <br>
+       <label for="">time</label>
+       <input type="time" name="" id=""> <br>
+       <input type="submit" name="" id=""> <br>
+       <button>submit</button>
+    </form>
+
+    <br />
+    <table border="12" style="border-color: greenyellow; padding: 12px; background: bisque;">
+        <tr>
+            <th>name</th>
+            <th>city</th>
+            <th>age</th>
+        </tr>
+        <tr>
+            <td>riya</td>
+            <td>kota</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>jiya</td>
+            <td>kota</td>
+            <td>23</td>
+        </tr>
+    </table>
+
+    <table border="1">
+        <tr>
+            <td>sq</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>name</td>
+            <td>dsf</td>
+            <td>sdfasd</td>
+            <td>sdfasd</td>
+        </tr>
+        <tr>
+            <td>city</td>
+            <td>sdf</td>
+            <td>sdf</td>
+            <td>sdfsdf</td>
+        </tr>
+    </table> <br>
+    <table border="12" style="border-radius: 12px 90px ;border-color: brown;background: silver; margin: 3px;padding: 34px;">
+        <th rowspan="2">S NO.</th>
+        <th colspan="2">NAME</th>
+        <th rowspan="2">COURSE</th>
+        <th rowspan="2">EMAIL</th>
+        <tr>
+            <td>first</td>
+            <td>last</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>riya</td>
+            <td>jain</td>
+            <td>java</td>
+            <td>riya@gmial.com</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>siya</td>
+            <td>jain</td>
+            <td>javascript</td>
+            <td>siya@gmial.com</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>raya</td>
+            <td>yadav</td>
+            <td>python</td>
+            <td>raya@gmial.com</td>
+        </tr>
+    </table>
+    <a href="https://www.google.com">google</a>
+    <a href="https://www.facebook.com" target="_blank">facebook</a>
+</center>
+
+<h1>hey yadh sdjnasdijd ajsdnajsdv <span style="color: red;">jksd</span> sdvsf</h1>
+
+<table border="1">
+    <tr>
+        <th rowspan="3">day</th>
+        <th colspan="3">Seminar</th>
+    </tr>
+    <tr>
+        <th colspan="2">Schedule</th>
+        <th rowspan="2">Topic</th>
+    </tr>
+    <tr>
+        <th>Begin</th>
+        <th>End</th>
+    </tr>
+    <tr> 
+        <td rowspan="2">Monday</td>
+        <td rowspan="2">8:00a.m.</td>
+        <td rowspan="2">5:00p.m.</td>
+        <td>Introduction to XML</td>
+    </tr>
+    <tr>
+        <td>Validity DTD and Relax NG</td>
+    </tr>
+    <tr>
+        <td rowspan="3">Tuesday</td>
+        <td>8:00a.m.</td>
+        <td>11:00a.m.</td>
+        <td >XPath</td>
+    </tr>
+    <tr>
+        <td>11:00a.m.</td>
+        <td>2:00p.m.</td>
+        <td >XSL Transformation</td>
+    </tr>
+    <tr>
+        <td>2:00p.m.</td>
+        <td>5:00p.m.</td>
+    </tr>
+    <tr>
+        <td>Wednesday</td>
+        <td>8:00a.m.</td>
+        <td>12:00p.m.</td>
+        <td>XSL Formatting Objects</td>
+    </tr>
+</table>
+</body>
+</html>
