@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        body{
+            background:linear-gradient(45deg,rgb(204, 204, 59),rgb(27, 25, 25));
+            margin: 2px;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            border: 10px double #fff;
+            border-radius: 40px;
+        }
+        .main{
+            background-color:  rgba(255, 255, 255, 0.411);
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            align-items: center;
+        
+        }
+
+        img{
+            width: 100px;
+            border-radius: 50%;
+            margin-top: -60px;
+            display: flex;
+            justify-content: center;
+            
+        }
+        .upp{
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 120px;
+            width: 100%;
+            
+        }
+        .lower{
+            text-align: center;
+        }
+        
+        .btn{
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+        }
+        button{
+            background: black;
+            color: rgb(218, 175, 90);
+            padding: 10px;
+            border-radius: 12px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        @media( max-width:600px) {
+            body{
+                background: linear-gradient(45deg,white,black);
+            }
+            img{
+                content:url("https://i.pinimg.com/736x/b6/4f/8f/b64f8fcf0e0aed9537c800eb5e9ca1ed.jpg");
+            }
+            .container{
+                background: none;
+            }
+            .upp{
+                background: none;
+            }
+            .main{
+                background: none;
+                color: #fff;
+                width: 100%;
+                background-color: rgb(31, 30, 30);
+            }
+            button{
+                color: #fff;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="upp">
+                
+            </div>
+            <div class="img"><img src="https://img.freepik.com/premium-vector/shopping-human-simple-gold-icon-apps-websites_599062-10425.jpg" alt=""></div>
+            <div class="lower">
+                <h1>Frontend Developer</h1>
+                <h4>tech designer</h4>
+                <div class="apps">
+                    <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-facebook"></i>
+                </div>
+            </div>
+            <div class="btn">
+                <button>connect</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
