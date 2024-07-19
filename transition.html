@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .box{
+            width: 400px;
+            height: 400px;
+            background-color: black;
+            cursor: pointer;
+             transition: all 2s; /* <-- this will apply the change to all the specified elements */
+            /* transition: 2s; <-- this will set the transition timing
+            transition-property: background-color,transform; <-- this will apply the transition in the specified propert only*/
+            /* transition-duration: 2s; <-- this will set the transition timming*/
+            /* transition-property: all ; <-- this will apply changes in all the properties*/
+        }
+        .box:hover{
+            background-color: yellow;
+            /* height: 600px;
+            width: 300px; */
+            /* border-radius: 200%; */
+            transform: rotate(360deg);
+            /* transform: scale(1.4);  */
+            transform: skewx(60deg);
+            transform: skewx(-60deg);
+            transform: translatex(300px);
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

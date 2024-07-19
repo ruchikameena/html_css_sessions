@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            box-shadow: 0 0 8px black;
+            animation-name: mybox;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-delay: 2s;
+            animation-direction: alternate;
+        }
+
+        @keyframes mybox {
+            from{
+                width: 0px;
+                height: 0px;
+                background-color: red;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            to{
+                width: 200px;
+                height: 200px;
+                background-color: rgb(255, 0, 191);
+                position: absolute;
+                top: 200px;
+                left: 580px;
+                opacity: 0.3;
+            }
+        }
+        .box2{
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            box-shadow: 0 0 8px black;
+            animation-name: mybox1;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+            animation-direction: alternate;
+        }
+
+        @keyframes mybox1 {
+            from{
+                width: 0px;
+                height: 0px;
+                background-color: rgb(255, 187, 0);
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+            to{
+                width: 200px;
+                height: 200px;
+                background-color: rgb(0, 238, 255);
+                position: absolute;
+                top: 200px;
+                right:583px;
+                opacity: 0.3;
+            }
+        }
+        .box3{
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            box-shadow: 0 0 8px black;
+            animation-name: mybox2;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-delay: 2s;
+            animation-direction: alternate;
+        }
+
+        @keyframes mybox2 {
+            from{
+                width: 0px;
+                height: 0px;
+                background-color: rgb(153, 0, 255);
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
+            to{
+                width: 200px;
+                height: 200px;
+                background-color: rgb(0, 255, 34);
+                position: absolute;
+                bottom: 230px;
+                right: 583px;
+                opacity: 0.3;
+            }
+        }
+        .box4{
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            box-shadow: 0 0 8px black;
+            animation-name: mybox3;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+            animation-direction: alternate;
+        }
+
+        @keyframes mybox3 {
+            from{
+                width: 0px;
+                height: 0px;
+                background-color: rgb(255, 166, 0);
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+            to{
+                width: 200px;
+                height: 200px;
+                background-color: rgb(55, 0, 255);
+                position: absolute;
+                bottom: 230px;
+                left: 580px;
+                opacity: 0.3;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+</body>
+</html>
